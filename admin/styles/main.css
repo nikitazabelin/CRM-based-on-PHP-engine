@@ -1,0 +1,77 @@
+body {
+	margin: 0;
+	padding: 0 20px 10px;
+}
+
+#header {
+	text-align: center;
+}
+
+#menu {
+	text-align: center;
+}
+
+#menu table {
+	font-size: 150%;
+	margin: 0 auto;
+}
+
+#menu table td {
+	padding: 0 20px;
+	text-align: right;
+}
+
+#content h3 {
+	text-align: center;
+}
+
+#content table.info {
+	border: 1px solid #000;
+	border-collapse: collapse;
+	font-size: 120%;
+	margin: 0 auto;
+	width: 100%;
+}
+
+#content table.info td {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+#content table.info .header {
+	font-weight: bold;
+}
+
+/* Auth */
+
+#message_string {
+	color: #c00;
+	text-align: center;
+}
+
+#content .form table {
+	margin: 0 auto;
+}
+
+#content .form p {
+	text-align: center;
+}
+
+/* Products */
+
+#pagination {
+	font-size: 120%;
+	margin: 20px auto 0;
+}
+
+.img {
+	width: 100px;
+}
+
+#content table table {
+	margin: 0 auto;
+}
+
+.link_new {
+	text-align: right;
+}

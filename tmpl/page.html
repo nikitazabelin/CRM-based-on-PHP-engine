@@ -1,0 +1,51 @@
+
+<div class="container-fluid bgimage">
+ <div class="row">	
+
+  <div class="col-12 col-lg-4 mt-5 text-center">
+   <img src="../images/rec.jpg" class="brdr" alt="recommended">
+  </div>
+
+  <div class="col-12 col-lg-8 mt-5">
+  <div class="container">
+  <div class="row">
+  
+   <div class="col-12">
+    <p class="text-center h5 mb-5"><?=$this->product["title"]?></p>
+    <p class="text-right">סוג יין:</p>
+    <p class="text-right">שנה:<?=$this->product["year"]?></p>
+    <p class="text-right">מדינת מקור:<?=$this->product["country"]?></p>
+    <p class="text-right">אזור:</p> 
+    <p class="text-right">מחיר:<?=$this->product["price"]?></p>
+
+    <a class="link_cart" href="<?=$this->product["link_cart"]?>"><div class="text-right"><button class="btn btn-dark" data-toggle="modal" data-target="#modal2"><i class="fas fa-shopping-basket link-hovered"> הוספה לסל</i></button></div></a>
+
+    <p class="text-right h5 mt-5"><?=$this->product["description"]?></p>
+    
+    <hr class="border border-dark hrpage">
+	   
+   </div>
+   <?php
+  		for ($i = 0; $i < count($this->products)|| $i == 4; $i++) { ?>
+   <div class="col-6 col-lg-3 my-5">
+	 <a class="text-dark" href="<?=$this->products[$i]["link"]?>">
+      <div class="text-center"><img class="brdr" src="..<?=$this->products[$i]["img"]?>" alt="<?=$this->products[$i]["title"]?>"></div>
+	   <p class="h5 text-center text-black card-height mt-3"><?=$this->products[$i]["title"]?></p>
+     </a>
+    <hr> 
+	 <p class="h5 text-center mt-3"><?=$this->products[$i]["price"]?></p>
+	  <a href="<?=$this->products[$i]["link_cart"]?>"><div class="text-center"><button class="btn btn-dark" data-toggle="modal" data-target="#modal2"><i class="fas fa-shopping-basket link-hovered"> הוספה לסל</i></button></div></a>
+   </div>
+   <?php } ?>
+   
+   
+  </div>
+  </div>
+  </div>
+ 
+ </div>
+</div>
+
+<hr class="border border-dark">
+
+
