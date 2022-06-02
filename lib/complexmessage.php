@@ -1,5 +1,5 @@
 <?php
-require_once "globalmessageclass.php";
+require_once "globalmessage.php";
 
 abstract class ComplexMessage extends GlobalMessage {
 
