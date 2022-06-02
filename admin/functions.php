@@ -1,9 +1,9 @@
 <?php
 	require_once "start.php";
 	session_start();
-	require_once "manageadminclass.php";
-	require_once "urladminclass.php";
-	require_once "authclass.php";
+	require_once "manageadmin.php";
+	require_once "urladmin.php";
+	require_once "auth.php";
 
 	$manage = new ManageAdmin();
 	$url = new URLAdmin();
