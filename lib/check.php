@@ -1,6 +1,11 @@
 <?php
-require_once "configclass.php";
+require_once "config.php";
+
+
+
 /* check parametrs and variables*/
+
+
 class Check {
 
 	private $config;
