@@ -8,6 +8,8 @@ require_once "product.php";
 require_once "discount.php";
 require_once "order.php";
 require_once "message.php";
+
+
 abstract class AbstractModules {
 	protected $config;
 	protected $data;
