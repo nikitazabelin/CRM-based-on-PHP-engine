@@ -1,6 +1,6 @@
 <?php
-require_once "configclass.php";
-require_once "formatclass.php";
+require_once "config.php";
+require_once "format.php";
 
 class Auth {
 	private $config;
