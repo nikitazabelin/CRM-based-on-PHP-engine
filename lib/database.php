@@ -1,6 +1,7 @@
 <?php
-require_once "configclass.php";
+require_once "config.php";
 
+#SQL
 class DataBase {
 
 	private static $db = null;
