@@ -1,5 +1,5 @@
 <?php
-require_once "globalclass.php";
+require_once "global.php";
 
 class Discount extends GlobalClass {
 
