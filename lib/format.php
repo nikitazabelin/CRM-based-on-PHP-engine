@@ -1,6 +1,9 @@
 <?php
 require_once "config.php";
+
+
 /* checking of parametrs*/
+
 class Format {
 
 	private $config;
