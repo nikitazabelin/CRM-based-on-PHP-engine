@@ -1,5 +1,6 @@
 <?php
-require_once "orderclass.php";
+require_once "order.php";
+
 
 class Statistics {
 
