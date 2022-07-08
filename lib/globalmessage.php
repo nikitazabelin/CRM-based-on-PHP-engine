@@ -1,5 +1,7 @@
 <?php
-require_once "configclass.php";
+require_once "config.php";
+
+
 /* sending sistem massages and handling of mails*/
 abstract class GlobalMessage {
 
