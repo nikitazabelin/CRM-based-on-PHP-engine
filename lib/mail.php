@@ -1,6 +1,8 @@
 <?php
 require_once "config.php";
 require_once "email.php";
+
+
 /* class for sending emails*/
 class Mail {
 
