@@ -1,5 +1,8 @@
 <?php
-require_once "globalclass.php";
+require_once "global.php";
+
+
+
 /*section table*/
 class Section extends GlobalClass {
 
