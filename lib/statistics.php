@@ -17,10 +17,10 @@ class Statistics {
 		$result["summ_account"] = 0;
 		$result["income"] = 0;
 		$result["count_dvd"] = 0;
-		for ($i = 0; $i < count($orders); $i++) {
-			$result["summ_account"] += $orders[$i]["price"];
-			if ($orders[$i]["date_pay"] != 0) $result["income"] += $orders[$i]["price"];
-			$ids = explode(",", $orders[$i]["product_ids"]);
+		for ($a = 0; $a < count($orders); $a++) {
+			$result["summ_account"] += $orders[$a]["price"];
+			if ($orders[$a]["date_pay"] != 0) $result["income"] += $orders[$a]["price"];
+			$ids = explode(",", $orders[$a]["product_ids"]);
 			$result["count_dvd"] += count($ids);
 		}
 		return $result;
