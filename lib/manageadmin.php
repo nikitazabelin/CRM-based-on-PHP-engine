@@ -4,6 +4,8 @@ require_once "urladmin.php";
 require_once "auth.php";
 require_once "sections.php";
 
+
+
 class ManageAdmin extends Manage {
 
 	private $url_admin;
