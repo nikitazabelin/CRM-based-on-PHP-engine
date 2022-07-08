@@ -1,5 +1,5 @@
 <?php
-require_once "complexmessageclass.php";
+require_once "complexmessage.php";
 
 class PageMessage extends ComplexMessage {
 
