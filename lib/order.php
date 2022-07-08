@@ -1,13 +1,14 @@
 <?php
-require_once "globalclass.php";
-require_once "configclass.php";
-require_once "formatclass.php";
-require_once "productclass.php";
-require_once "orderclass.php";
-require_once "discountclass.php";
-require_once "systemmessageclass.php";
-require_once "mailclass.php";
-require_once "urlclass.php";
+require_once "global.php";
+require_once "config.php";
+require_once "format.php";
+require_once "product.php";
+require_once "order.php";
+require_once "discount.php";
+require_once "systemmessage.php";
+require_once "mail.php";
+require_once "url.php";
+
 
 class Order extends GlobalClass {
 
