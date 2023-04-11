@@ -81,7 +81,7 @@ The functionality of the admin section is implemented in the `functions.php` fil
 
 To deploy this solution on a local server, follow these steps:
 
-1. Clone this repository using the command: `git clone https://github.com/USERNAME/CRM-based-on-PHP-engine.git`
+1. Clone this repository using the command: `git clone https://github.com/hebrewbug/CRM-based-on-PHP-engine.git`
 2. Install a local web server such as XAMPP, WAMP or MAMP.
 3. Copy the repository files to the web server root directory.
 4. Import the database file `db.sql` to a new database using PHPMyAdmin or other database management tool.
